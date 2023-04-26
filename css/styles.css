@@ -755,14 +755,14 @@ img{
 
 .blogs__avatar{
     margin: 0 auto;
-    object-fit: cover;
-    aspect-ratio: 1/1;
 }
 
 .blogs__selfie{
     border-radius: 50%;
-    height: 6rem;
-    width: 6rem;
+    aspect-ratio: 1/1;
+    height: 6.2rem;
+    width: 6.2rem;
+    object-fit: cover;
 }
 
 
