@@ -15,43 +15,61 @@
 </head>
 <body>
     <header class="header">
-        <div class="header__contenedor">
-            <div class="header__barra">
-                <figure class="header__logo">
-                    <img src="images/logo/white-logo.svg" alt="logo">
+        <nav class="navegacion">
+            <a href="/" class="navegacion__logo">
+                <img src="images/logo/white-logo.svg" alt="logo">
+            </a>
+
+            <button type="button" class="navegacion__boton" aria-label="Open menu">
+                <figure class="navegacion__img">
+                    <img src="images/logo/icons8-attack-on-titan.svg" class="navegacion__icono">
                 </figure>
-                <nav class="navegacion">
-                    <a href="#" class="navegacion__link">Home</a>
-                    <a href="#" class="navegacion__link">Features</a>
-                    <a href="#" class="navegacion__link">Overview</a>
-                    <a href="#" class="navegacion__link">Pricing</a>
-                    <a href="#" class="navegacion__link">Team</a>
-                    <a href="#" class="navegacion__link">Blog</a>
-                    <a href="#" class="navegacion__link">Contact</a>
-                </nav>
-                <div class="header__btn">
-                    <a href="#" class="header__boton">Get it now</a>
-                </div>
+            </button>
+
+            <ul class="navegacion__menu">
+                <li class="navegacion__elemento">
+                    <a href="#home" class="navegacion__link">Home</a>
+                </li>
+                <li class="navegacion__elemento">
+                    <a href="#features" class="navegacion__link">Features</a>
+                </li>
+                <li class="navegacion__elemento">
+                    <a href="#pricing" class="navegacion__link">Pricing</a>
+                </li>
+                <li class="navegacion__elemento">
+                    <a href="#team" class="navegacion__link">Team</a>
+                </li>
+                <li class="navegacion__elemento">
+                    <a href="#blog" class="navegacion__link">Blog</a>
+                </li>
+            </ul>
+            <div class="navegacion__btn">
+                <a href="#" class="navegacion__start">Get it now</a>
             </div>
-            <div class="header__grid">
-                <div class="header__contenido">
-                    <h1 class="header__heading">A Powerfil App For Your Business</h1>
-                    <p class="header__texto">From open source to pro services, Piqes helps you to build, deploy, test and monitor apps.</p>
-                    <div class="header__botones">
-                        <a class="header__apple" href="#">App Store</a>
-                        <a class="header__google" href="#">Google Play</a>
-                    </div>
-                </div>
-                <div class="header__grafico">
-                    <figure class="header__imagen">
-                        <img src="images/hero/phone.png" alt="header app">
-                    </figure>
-                </div>
-            </div>
-        </div>
+
+        </nav>
     </header>
 
-    <section class="features">
+    <section class="hero" id="home">
+        <div class="hero__contenedor">                
+            <div class="hero__grid">
+                <div class="hero__contenido">
+                    <h1 class="hero__heading">A Powerfil App For Your Business</h1>
+                    <p class="hero__texto">From open source to pro services, Piqes helps you to build, deploy, test and monitor apps.</p>
+                    <div class="hero__botones">
+                        <a class="hero__apple" href="#">App Store</a>
+                        <a class="hero__google" href="#">Google Play</a>
+                    </div>
+                </div>
+                
+                    <figure class="hero__imagen">
+                        <img src="images/hero/phone.png" alt="header app">
+                    </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="features" id="features">
         <div class="features__contenedor">
             <div class="features__texto">
                 <p class="features__seccion">Features</p>
@@ -126,7 +144,7 @@
         </section>
     </section>
 
-    <main class="pricing">
+    <main class="pricing" id="pricing">
         <div class="pricing__contenedor">
             <div class="pricing__contenido">
                 <p class="pricing__seccion">Pricing</p>
@@ -220,7 +238,7 @@
         </div>
     </main>
 
-    <section class="team">
+    <section class="team" id="team">
         <div class="team__contenedor">
             <div class="team__contenido">
                 <p class="team__seccion">TEAM</p>
@@ -259,7 +277,7 @@
         </div>
     </section>
 
-    <section class="blogs">
+    <section class="blogs" id="blog">
         <div class="blogs__contenedor">
             <div class="blogs__contenido">
                 <p class="blogs__seccion">BLOGS</p>
@@ -390,4 +408,6 @@
         </footer>
     </footer>
 </body>
+
+<script src="js/index.js"></script>
 </html>
