@@ -97,7 +97,6 @@ img{
 }
 
 .navegacion__logo{
-    height: 2.8rem;
     width: 12rem;
     padding: 0;
 }
@@ -111,7 +110,6 @@ img{
 
 @media (min-width: 998px){
     .navegacion__logo{
-        height: 4.3rem;
         width: 18rem;
         margin: 0;
     }
@@ -133,11 +131,6 @@ img{
 
 .navegacion__img{
     margin: 0;
-}
-
-.navegacion__icono{
-    width: 2.4rem;
-    height: 2.4rem;
 }
 
 .navegacion__boton:focus:not(:focus-visible){
@@ -410,7 +403,6 @@ img{
 
 .features__svg{
     width: 4rem;
-    height: 6rem;
 }
 
 .features__contenido{
@@ -793,7 +785,7 @@ img{
 .blogs__img{
     border-radius: 15px 15px 0px 0px;
     height: 30rem;
-    width: 42.5rem;
+    width: 100%;
     aspect-ratio: 1/1;
     object-fit: cover;
     transition-property: transform;
@@ -920,7 +912,6 @@ img{
 
 .footer__logo{
     width: 25rem;
-    height: 5.9rem;
 }
 
 .footer__navegacion{
